@@ -1,0 +1,75 @@
+
+
+.navigation li a:hover {
+	color: #eef942;
+}
+
+.tabel{
+	width: 800px;
+	height: 800px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(30, 51, 69, 0.5));
+	border-radius: 30px;
+	margin : 0 auto;
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+input[type="text"]{
+	color: #000000;
+	height: 45px;
+	width: 300px;
+	font-size: 16px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 15px;
+}
+textarea{
+	color: black;
+	height: 300px;
+	width: 400px;
+	font-size: 16px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 15px;
+	
+}
+.btn-lanjut{
+	margin-top: 30px;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	color: #fff;
+	border-radius: 30px;
+	border: none;
+	background-color: #4CAF50;
+	font-size: 14px;
+	cursor: pointer;
+}
+.btn-lanjut:hover,.btn-login:active{
+	background: #009900;
+}
+.btn-batal{
+	margin-top: 30px;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	color: #000;
+	border-radius: 30px;
+	border: none;
+	background-color: #FF0000;
+	font-size: 14px;
+	cursor: pointer;
+}
+.btn-batal:hover,.btn-login:active{
+	background: red;
+}
+.title2 h2{
+	position: absolute;
+	top: 400%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 26.9px;
+	float: center;
+}
+
